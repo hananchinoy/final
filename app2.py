@@ -41,7 +41,8 @@ boycott = ['Lidl', 'Coca cola', 'McDonalds', 'Mcd', 'Mcdonalds' ,'Mcdonald',"Sta
 'Vaseline',
 'Walls','dettol', 'sephora', 'prada']  
 checkValue(name,boycott)
-st.markdown ("Please note that this app recognizes the boycotted companies in the _Cosmetics, F&B, Entertainment, Apparel and Technology_ sectors")
+
 st.image('https://img.freepik.com/free-vector/illustrated-peace-message-background_23-2148969870.jpg?w=740')
-st.markdown ("Image Credits: Freepik")
+st.markdown ("Please note that this app recognizes the boycotted companies in the _Cosmetics, F&B, Entertainment, Apparel and Technology_ sectors")
+
 st.markdown ("© Hanan Chinoy. All rights reserved.")
