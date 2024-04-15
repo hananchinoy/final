@@ -2,7 +2,7 @@ import streamlit as st
 st.title("*The Conscious Choice.*")
 magicEnabled = False
 st.markdown ("In solidarity with :flag-ps:, this app is designed to help you make conscious choices and avoid purchasing products or services from companies that support and/or fund the gen0cide in Gaza.")
-st.markdown (":green[Type in the product's name or the parent company name to find out whether the brand or company is among those on the boycott list.]")
+st.markdown ("Type in the product's name or the parent company name to find out whether the brand or company is among those on the boycott list.]")
 
 
 
@@ -12,10 +12,10 @@ def checkValue(value,boycottList):
  if name != "":
 
    if(value.casefold() in (name.casefold() for name in boycottList)):
-    st.markdown(":red[_This brand is boycotted!_]");
+    st.markdown("_This brand is boycotted_!");
      
    else: 
-     st.markdown(":green[_This brand is not on the boycott list, you may purchase their products._]");
+     st.markdown("_This brand is not on the boycott list, you may purchase their products._");
    
 
 boycott = ['Lidl', 'Coca cola', 'McDonalds', 'Mcd', 'Mcdonalds' ,'Mcdonald',"Starbucks" ,'Puma', 'Wix', 'wix.com', 'AXA', 'Siemens', 'Nestle', 'Airbnb', 'Volvo', 'Caterpillar', 'Motorola', 'Pampers', 'LOreal', 'Loreal', 'Lancôme',
@@ -41,7 +41,7 @@ boycott = ['Lidl', 'Coca cola', 'McDonalds', 'Mcd', 'Mcdonalds' ,'Mcdonald',"Sta
 'Vaseline',
 'Walls','dettol', 'sephora', 'prada']  
 checkValue(name,boycott)
-st.markdown (":grey[Please note that this app recognizes the boycotted companies in the _Cosmetics, F&B, Entertainment, Apparel and Technology_ sectors]")
+st.markdown ("Please note that this app recognizes the boycotted companies in the _Cosmetics, F&B, Entertainment, Apparel and Technology_ sectors")
 st.image('https://img.freepik.com/free-vector/illustrated-peace-message-background_23-2148969870.jpg?w=740')
-st.markdown (":grey[Image Credits: Freepik]")
-st.markdown (":grey[© Hanan Chinoy. All rights reserved.]")
+st.markdown ("Image Credits: Freepik")
+st.markdown ("© Hanan Chinoy. All rights reserved.")
