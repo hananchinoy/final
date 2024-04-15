@@ -32,7 +32,7 @@ boycott = ['Lidl', 'Coca cola', 'McDonalds', 'Mcd', 'Mcdonalds' ,'Mcdonald',"Sta
 'Hellmann', 'lefties',
 'Knorr',
 'LUX', 'galaxy', 
-'Magnum',
+'Magnum', 'baskin robbins', 'baskin robins',
 'OLLY Vitamins',
 'OMO', 'ariel',
 'Rexona',
