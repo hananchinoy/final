@@ -2,7 +2,7 @@ import streamlit as st
 st.title("*The Conscious Choice.*")
 magicEnabled = False
 st.markdown ("In solidarity with :flag-ps:, this app is designed to help you make conscious choices and avoid purchasing products or services from companies that support and/or fund the gen0cide in Gaza.")
-st.markdown ("Type in the product's name or the parent company name to find out whether the brand or company is among those on the boycott list.]")
+st.markdown ("Type in the product's name or the parent company name to find out whether the brand or company is among those on the boycott list.")
 
 
 
